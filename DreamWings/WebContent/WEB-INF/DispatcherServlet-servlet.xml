@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+		http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-3.2.xsd">
+
+	<bean name="/home_page.do" class="dreamwings.controller.HomePageController" />
+	<bean name="/login_page.do" class="dreamwings.controller.LoginPageController" />
+	<bean name="/search_page.do" class="dreamwings.controller.SearchPageController" />
+	<bean name="/join_page.do" class="dreamwings.controller.JoinPageController" />
+	<bean name="/list_page.do" class="dreamwings.controller.ListPageController" />
+	<bean name="/detail_review_page.do" class="dreamwings.controller.DetailReviewPageController" />
+	<bean name="/detail_item_page.do" class="dreamwings.controller.DetailItemPageController" />
+	<bean name="/buy_page.do" class="dreamwings.controller.BuyPageController" />
+	<bean name="/buy_finish_page.do" class="dreamwings.controller.BuyFinishPageController" />
+	<bean name="/mypage_buylist_page.do" class="dreamwings.controller.MypageBuylistPageController" />
+
+	<bean name="/join.do" class="dreamwings.controller.JoinController" />
+	<bean name="/login.do" class="dreamwings.controller.LoginController" />
+	
+</beans>
