@@ -14,7 +14,7 @@
 		<center>
 			환영합니다!<br/><br/>
 			<form action="join.do" method="post">
-				회원가입
+				<img src="image/button/but_s_signin.png" id="img_signin_logo"/>
 				<table>
 					<tr>
 						<td>아이디</td>
@@ -33,7 +33,7 @@
 						<td><input type="text" name="member_mail"/></td>
 					</tr>
 				</table>
-				<input type="submit" value="회원가입"/>
+				<input type="image" value="submit" src="image/button/but_l_signin.png" id="but_top_loginout"/>
 			</form>
 		</center>
 	</div>

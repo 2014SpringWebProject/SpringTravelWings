@@ -6,7 +6,7 @@
 <meta http-equiv="Content-Type" content="text/html; charset=EUC-KR">
 <link rel="stylesheet" type="text/css" href="css/dream_wings.css">
 <title>Insert title here</title>
-</head>fdfdfd
+</head>
 <body>
 	<div>
 		<div id="header_link">

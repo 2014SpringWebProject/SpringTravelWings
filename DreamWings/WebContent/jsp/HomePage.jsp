@@ -16,7 +16,7 @@
 		<div id="main_home_ad">MAIN ADVERTISEMENT</div>
 		<div id="main_home_login">
 			<form action="login.do" method="post">
-				<table>
+				<table align="right">	
 					<tr>
 						<td>¾ÆÀÌµð</td>
 						<td><input type="text" name="member_id"/></td>
