@@ -9,7 +9,7 @@
 </head>
 <body>
 	<jsp:include page="PageHeader.jsp"></jsp:include>
-<!-- push테스트 -->
+
 	<center>
 		회원이시면 로그인을, 회원이 아니시면 회원가입을 해주세요.<br/><br/>
 		<div id="main_login_login">
