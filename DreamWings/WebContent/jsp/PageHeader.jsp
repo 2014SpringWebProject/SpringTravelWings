@@ -11,8 +11,8 @@
 	<div>
 		<div id="header_link">
 			<a href="login_page.do"> 
-				<input type="image" src="image/button/but_s_login.png" id="but_top_loginout"/></a>
-			<a href="join_page.do"><input type="image" src="image/button/but_s_signin.png" id="but_top_loginout"/></a>
+				<input type="image" src="image/link/link_login.png" id="but_top_loginout"/></a>
+			<a href="join_page.do"><input type="image" src="image/link/link_signin.png" id="but_top_loginout"/></a>
 		</div>
 		<div id="header_logo"><a href="home_page.do">
 			<input type="image" src="image/logo/img_logo.png" id="img_logo"/></a></div>
