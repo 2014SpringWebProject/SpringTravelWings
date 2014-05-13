@@ -19,4 +19,41 @@
 	<bean name="/join.do" class="dreamwings.controller.JoinController" />
 	<bean name="/login.do" class="dreamwings.controller.LoginController" />
 	
+	<!-- 경현 -->
+	<bean id="dataSource"
+		class="org.springframework.jdbc.datasource.DriverManagerDataSource">
+		<property name="driverClassName" value="oracle.jdbc.driver.OracleDriver" />
+		<property name="url" value="jdbc:oracle:thin:@127.0.0.1:1521:XE" />
+		<property name="username" value="mirim" />
+		<property name="password" value="mirim" />
+	</bean>
+	<bean id="sqlSessionFactory" class="org.mybatis.spring.SqlSessionFactoryBean">
+		<property name="dataSource" ref="dataSource" />
+		<property name="configLocation" value="classpath:dreamwings/config/SqlMapConfig.xml" />
+		<property name="mapperLocations">
+			<list>
+				<value>classpath:/dreamwings/config/SqlQuery.xml</value>
+			</list>
+		</property>
+	</bean>
+
+	<bean class="org.mybatis.spring.SqlSessionTemplate">
+		<constructor-arg ref="sqlSessionFactory" />
+	</bean>
+	
+	<bean id="pDao" class="dreamwings.dao.ProiductDBDAO">
+		<property name="factory" ref="sqlSessionFactory"></property>
+	</bean>
+	
+
+	<bean name="/list.do" class="dreamwings.controller.ListController">
+		<property name="productDao" ref="pDao"></property>
+	</bean>
+
+	<bean name="/detail.do" class="dreamwings.controller.DetailController">
+		<property name="productDao" ref="pDao"></property>
+	</bean>
+	
+	<!-- 경현 끝 -->
+	
 </beans>
