@@ -14,7 +14,7 @@
 		<center>
 			환영합니다!<br/><br/>
 			<form action="join.do" method="post">
-				<img src="image/button/but_s_signin.png" id="img_signin_logo"/>
+				<img src="image/link/link_signin.png" id="img_signin_logo"/>
 				<table>
 					<tr>
 						<td>아이디</td>
