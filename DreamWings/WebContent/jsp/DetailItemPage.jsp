@@ -13,6 +13,7 @@
 		<jsp:include page="DetailSubmenu.jsp"></jsp:include>
 	</div>
 
+
 	<div id="main_detail_item">
 		<table id="main_detail_item_table">
 			<tr>
