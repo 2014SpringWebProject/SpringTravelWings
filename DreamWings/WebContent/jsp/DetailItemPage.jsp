@@ -16,11 +16,14 @@
 	<div id="main_detail_item">
 		<table id="main_detail_item_table">
 			<tr>
-				<td rowspan="2">PHOTO</td>
-				<td>TITLE</td>
+				<td rowspan="2"><img src="image/product/${product.photo_detail}"></td>
+				<td>${product.name}</td>
 			</tr>
 			<tr>
-				<td>INFOMATION</td>
+				<td>가격 : ${product.price}원<br>
+				원산지 : ${product.origin}<br>
+				제조사 : ${product.brand}<br>
+				재고 : ${product.count}개</td>
 			</tr>
 		</table>
 		<div id="main_detail_item_info">

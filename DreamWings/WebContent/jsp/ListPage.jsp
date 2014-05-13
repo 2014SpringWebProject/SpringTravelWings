@@ -1,5 +1,6 @@
 <%@ page language="java" contentType="text/html; charset=EUC-KR"
     pageEncoding="EUC-KR"%>
+<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
@@ -17,26 +18,28 @@
 
 	<div id="main_list">
 		<h1>BEST</h1>
+
 		<table id="main_list_best">
 			<tr>
-				<td>IMAGE</td>
-				<td>IMAGE</td>
-				<td>IMAGE</td>
+				<c:set var="doneLoop" value="false" />
+				<c:forEach begin="1" end="30" varStatus="status" items="${requestScope.list}" var="p">
+					<c:if test="${not doneLoop}"> 
+						<td><a href="detail.do?no=${p.no}"><img src="image/product/${p.photo_preview}"></a></td>
+						<c:if test="${status.count == 3}">
+							<c:set var="doneLoop" value="true" />
+						</c:if>
+					</c:if>
+				</c:forEach>
+				
 			</tr>
 		</table>
 		<hr>
 		<table id="main_list_item">
 			<tr>
-				<td>IMAGE</td>
-				<td>IMAGE</td>
-				<td>IMAGE</td>
-				<td>IMAGE</td>
-			</tr>
-			<tr>
-				<td>TEXT</td>
-				<td>TEXT</td>
-				<td>TEXT</td>
-				<td>TEXT</td>
+				<c:forEach items="${requestScope.list}" var="p">
+					<td><a href="detail.do?no=${p.no}"> <img
+							src="image/product/${p.photo_preview}"></a></td>
+				</c:forEach>
 			</tr>
 		</table>
 	</div>
