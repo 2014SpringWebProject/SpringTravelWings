@@ -5,6 +5,7 @@
 	<title>Detail item page</title>
 	<meta http-equiv="Content-Type" content="text/html; charset=EUC-KR">
 	<link rel="stylesheet" type="text/css" href="css/dream_wings.css">
+	<!-- TEST -->
 </head>
 <body>
 	<jsp:include page="PageHeader.jsp"></jsp:include>
