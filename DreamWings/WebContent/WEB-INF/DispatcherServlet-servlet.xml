@@ -9,9 +9,9 @@
 	<bean name="/login_page.do" class="dreamwings.controller.LoginPageController" />
 	<bean name="/search_page.do" class="dreamwings.controller.SearchPageController" />
 	<bean name="/join_page.do" class="dreamwings.controller.JoinPageController" />
-	<bean name="/list_page.do" class="dreamwings.controller.ListPageController" />
+	<!--<bean name="/list_page.do" class="dreamwings.controller.ListPageController" /> = list.do -->
 	<bean name="/detail_review_page.do" class="dreamwings.controller.DetailReviewPageController" />
-	<bean name="/detail_item_page.do" class="dreamwings.controller.DetailItemPageController" />
+	<!-- <bean name="/detail_item_page.do" class="dreamwings.controller.DetailItemPageController" /> = detail.do -->
 	<bean name="/buy_page.do" class="dreamwings.controller.BuyPageController" />
 	<bean name="/buy_finish_page.do" class="dreamwings.controller.BuyFinishPageController" />
 	<bean name="/mypage_buylist_page.do" class="dreamwings.controller.MypageBuylistPageController" />
