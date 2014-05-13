@@ -17,13 +17,13 @@
 		<div id="header_logo"><a href="home_page.do">
 			<input type="image" src="image/logo/img_logo.png" id="img_logo"/></a></div>
 		<div id="header_category">
-			<a href="list.do">
+			<a href="list_page.do">
 				<input type="image" src="image/top_menu/top_menu_family.png" id="img_top_menu"/></a>
-			<a href="list.do">
+			<a href="list_page.do">
 				<input type="image" src="image/top_menu/top_menu_bagpacking.png" id="img_top_menu"/></a>
-			<a href="list.do">
+			<a href="list_page.do">
 				<input type="image" src="image/top_menu/top_menu_honeymoon.png" id="img_top_menu"/></a>
-			<a href="list.do">
+			<a href="list_page.do">
 				<input type="image" src="image/top_menu/top_menu_schooltrip.png" id="img_top_menu"/></a>
 		</div>
 	</div>

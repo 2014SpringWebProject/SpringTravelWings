@@ -1,15 +1,23 @@
 html{
 }
+
 body{
 	background-color:FAFEFF;
 	margin-left:15%;
 	margin-right:15%;
 }
 
+#img_login_text{
+	 width:700px;
+	 height:54px;
+	 align:left;
+	 margin-top:20px;
+}
+
 #img_signin_but{
 	
 }
-//¿ìÂmÇìÇì
+
 #img_signin_logo{
 	 width:190px;
 	 height:72px;
@@ -30,7 +38,6 @@ body{
 	width:147px;
 	height:38px;
 	margin-right:30px;
-	margin-left:30px;
 }
 
 #but_top_loginout{
@@ -66,15 +73,17 @@ body{
 	float:left;
 	position:relative;
 	width:70%;
-	height:250px;
+	height:200px;
 }
 
 #main_home_login {	
 	float:left;
 	position:relative;
+	text-align:center;
 	width:30%;
-	height:250px;
+	height:200px;
 	margin-bottom:10px;
+	background-color:#EDF7F2;
 }
 
 #main_home_best {
@@ -84,6 +93,10 @@ body{
 }
 
 #main_join {
+}
+
+#main_login_ad{
+	background-color:white;
 }
 
 #main_login_login {

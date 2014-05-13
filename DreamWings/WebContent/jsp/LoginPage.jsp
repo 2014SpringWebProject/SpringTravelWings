@@ -11,7 +11,7 @@
 	<jsp:include page="PageHeader.jsp"></jsp:include>
 
 	<center>
-		회원이시면 로그인을, 회원이 아니시면 회원가입을 해주세요.<br/><br/>
+	<img src="image/text/text_login.png" id="img_login_text"/><br/><br/>
 		<div id="main_login_login">
 			<form action="login.do" method="post">
 				<table>
@@ -31,6 +31,7 @@
 			</form>
 		</div>
 		<div id="main_login_ad">
+			<img src="image/advertisement/ad_login.png"/>
 		</div>
 	</center>
 </body>

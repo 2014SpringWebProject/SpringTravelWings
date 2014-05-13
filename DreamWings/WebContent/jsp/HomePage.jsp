@@ -9,14 +9,15 @@
 </head>
 
 <body>
-<!-- test -->
+
 	<jsp:include page="PageHeader.jsp"></jsp:include>
 
 	<div>
 		<div id="main_home_ad">MAIN ADVERTISEMENT</div>
-		<div id="main_home_login">
+		<div id="main_home_login" align="left">
+			
 			<form action="login.do" method="post">
-				<table align="right">	
+				<table align="center" bgcolor="#EDF7F2" style="margin-top:65px; text-align:center;">	
 					<tr>
 						<td>¾ÆÀÌµð</td>
 						<td><input type="text" name="member_id"/></td>
@@ -27,7 +28,9 @@
 						<td><input type="password" name="member_passwd"/></td>
 					</tr>
 				</table>
+				</center>
 			</form>
+			
 		</div>
 		<hr/>
 		<table id="main_home_best">
