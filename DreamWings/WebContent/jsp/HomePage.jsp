@@ -17,20 +17,23 @@
 		<div id="main_home_ad">MAIN ADVERTISEMENT</div>
 		<div id="main_home_login" align="left">
 
-
 			<form action="login.do" method="post">
+				<img src="image/text/text_welcome.png" style="margin-top:30px;"/>
 				<table align="center" bgcolor="#EDF7F2"
-					style="margin-top: 65px; text-align: center;">
+					style="margin-top: 10px; text-align: center;">
 					<c:if test="${empty sessionScope.member_id}">
 						<tr>
-							<td>아이디</td>
+							<td><img src="image/link/link_id.png" id="but_top_loginout"/></td>
 							<td><input type="text" name="member_id" /></td>
-							<td rowspan="2"><input type="image" value="submit"
-								src="image/button/but_l_login.png" id="img_login_but" /></td>
 						</tr>
 						<tr>
-							<td>비밀번호</td>
+							<td><img src="image/link/link_password.png" id="but_top_loginout"/></td>
 							<td><input type="password" name="member_passwd" /></td>
+						</tr>
+						<tr>
+							<td colspan="2">
+							<input type="image" value="submit"
+								src="image/button/but_xl_login.png" /></td>
 						</tr>
 					</c:if>
 					<c:if test="${not empty sessionScope.member_id}">

@@ -7,6 +7,11 @@ body{
 	margin-right:15%;
 }
 
+#img_xl_but {
+	width:168px;
+	height:38px;
+}
+
 #img_login_text{
 	 width:700px;
 	 height:54px;
@@ -19,9 +24,10 @@ body{
 }
 
 #img_signin_logo{
-	 width:190px;
-	 height:72px;
-	 margin-bottom:15px;
+	 width:125px;
+	 height:47px;
+	 margin-top:15px;
+	 margin-bottom:5px;
 }
 
 #img_logo{
@@ -71,8 +77,8 @@ body{
 
 #main_home_ad {
 	float:left;
-	position:relative;
 	width:70%;
+	position:relative;
 	height:200px;
 }
 
@@ -97,6 +103,11 @@ body{
 
 #main_login_ad{
 	background-color:white;
+}
+
+#main_login_ad_image{
+	width:100%;
+	height:100%;
 }
 
 #main_login_login {
@@ -179,6 +190,12 @@ body{
 
 #main_mypage_jjim_list {
 	width:80%;
+}
+
+#main_buyfinish{
+	background-color:#EDF7F2;
+	padding-top:80px;
+	padding-bottom:144px;
 }
 
 #main_mypage_buylist {

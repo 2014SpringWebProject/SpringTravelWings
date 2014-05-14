@@ -16,8 +16,10 @@
 
 	<div id="main_buyfinish">
 		<center>
-			<h1>감사합니다!!</h1>
-			<a href="HomePage.html"><input type="button" value="쇼핑 계속하기" /></a>
+			<img src="image/text/text_thanks.png" style="margin-bottom:30px;"/><br/>
+			<a href="HomePage.html"><img src="image/button/but_xl_keep.png" id="img_xl_but"/></a>
+			&nbsp;&nbsp;&nbsp;
+			<a href="HomePage.html"><img src="image/button/but_xl_shopping.png" id="img_xl_but"/></a>
 		</center>
 	</div>
 </body>

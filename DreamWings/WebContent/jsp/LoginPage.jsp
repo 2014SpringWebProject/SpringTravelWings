@@ -16,22 +16,22 @@
 			<form action="login.do" method="post">
 				<table>
 					<tr>
-						<td>아이디</td>
+						<td><img src="image/link/link_id.png" id="but_top_loginout"/></td>
 						<td><input type="text" name="member_id"/></td>
 						<td rowspan="2"><input type="image" value="submit" src="image/button/but_l_login.png" id="img_login_but"/></td>
 					</tr>
 					<tr>
-						<td>비밀번호</td>
+						<td><img src="image/link/link_password.png" id="but_top_loginout"/></td>
 						<td><input type="password" name="member_passwd"/></td>
 					</tr>
 					<tr>
-						<td colspan="3"><a href="search_page.do">아이디/비밀번호 찾기</a></td>
+						<td colspan="3" align="right"><a href="search_page.do"><img src="image/link/link_idpasssearch.png"/></a></td>
 					</tr>
 				</table>
 			</form>
 		</div>
 		<div id="main_login_ad">
-			<img src="image/advertisement/ad_login.png"/>
+			<img src="image/advertisement/ad_login.png" id="main_login_ad_image"/>
 		</div>
 	</center>
 </body>

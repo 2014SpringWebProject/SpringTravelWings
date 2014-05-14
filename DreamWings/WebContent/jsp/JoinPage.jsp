@@ -12,28 +12,29 @@
 
 	<div id="main_join">
 		<center>
-			환영합니다!<br/><br/>
+			<img src="image/text/text_welcome.png" style="margin-top:15px; margin-bottom:-10px;"/><br/><br/>
 			<form action="join.do" method="post">
 				<img src="image/link/link_signin.png" id="img_signin_logo"/>
 				<table>
 					<tr>
-						<td>아이디</td>
+						<td><img src="image/link/link_id.png" id="but_top_loginout"/></td>
 						<td><input type="text" name="member_id"/></td>
 					</tr>
 					<tr>
-						<td>비밀번호</td>
+						<td><img src="image/link/link_password.png" id="but_top_loginout"/></td>
 						<td><input type="password" name="member_passwd"/></td>
 					</tr>
 					<tr>
-						<td>이름</td>
+						<td><img src="image/link/link_name.png" id="but_top_loginout"/></td>
 						<td><input type="text" name="member_name"/></td>
 					</tr>
 					<tr>
-						<td>메일</td>
+						<td><img src="image/link/link_email.png" id="but_top_loginout"/></td>
 						<td><input type="text" name="member_mail"/></td>
 					</tr>
 				</table>
-				<input type="image" value="submit" src="image/button/but_l_signin.png" id="but_top_loginout"/>
+				<input type="image" value="submit" src="image/button/but_xl_signin.png"
+						style="margin-top:10px;"/>
 			</form>
 		</center>
 	</div>
