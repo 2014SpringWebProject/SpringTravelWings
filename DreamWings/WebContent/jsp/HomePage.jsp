@@ -18,7 +18,7 @@
 		<div id="main_home_login" align="left">
 
 			<form action="login.do" method="post">
-				<img src="image/text/text_welcome.png" style="margin-top:30px;"/>
+				<img src="image/text/text_welcome.png" style="margin-top:30px;"/><br/>
 				<table align="center" bgcolor="#EDF7F2"
 					style="margin-top: 10px; text-align: center;">
 					<c:if test="${empty sessionScope.member_id}">
@@ -37,7 +37,7 @@
 						</tr>
 					</c:if>
 					<c:if test="${not empty sessionScope.member_id}">
-					${sessionScope.member_id} 님 로그인 되었습니다.
+					${sessionScope.member_id} <img src="image/text/text_loginok.png"/>
 					</c:if>
 				</table>
 				</center>

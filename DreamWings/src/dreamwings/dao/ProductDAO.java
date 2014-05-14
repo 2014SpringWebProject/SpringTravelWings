@@ -10,4 +10,5 @@ import dreamwings.vo.Product;
 public interface ProductDAO {
 	public List<Product> search()throws SQLException;
 	public Product search(int num)throws SQLException;
+	public List<Product> search(String category)throws SQLException;
 }

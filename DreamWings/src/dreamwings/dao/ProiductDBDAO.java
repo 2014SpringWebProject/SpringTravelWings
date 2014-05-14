@@ -30,4 +30,10 @@ public class ProiductDBDAO implements ProductDAO{
 		return product;
 	}
 	
+	public List<Product> search(String category) throws SQLException{
+		SqlSession sess = factory.openSession(true);
+		List<Product> list = sess.selectList("productns.selectByCategory", category);
+		sess.close();
+		return list;
+	}
 }

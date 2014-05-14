@@ -18,7 +18,7 @@ public class JoinController implements Controller {
 			HttpServletResponse res) throws Exception {
 		
 		ModelAndView mav = new ModelAndView();
-		String page = "/jsp/HomePage.jsp";
+		String page = "/jsp/result.jsp";
 		
 		// 파라미터 추출. VO에 저장
 		String id = req.getParameter("member_id");

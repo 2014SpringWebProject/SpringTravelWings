@@ -21,11 +21,13 @@ public class ListController implements Controller {
 	}
 	
 	@Override
-	public ModelAndView handleRequest(HttpServletRequest arg0,
-			HttpServletResponse arg1) throws Exception {
+	public ModelAndView handleRequest(HttpServletRequest req,
+			HttpServletResponse res) throws Exception {
 		ModelAndView mav = new ModelAndView("/jsp/ListPage.jsp");
 		
-		List<Product> list = productDao.search();
+		String category = req.getParameter("category");
+		System.out.print(category);
+		List<Product> list = productDao.search(category);
 		
 		System.out.println(list);
 		

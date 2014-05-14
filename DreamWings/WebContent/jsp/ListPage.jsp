@@ -36,10 +36,13 @@
 		<hr>
 		<table id="main_list_item">
 			<tr>
-				<c:forEach items="${requestScope.list}" var="p">
-					<td><a href="detail.do?no=${p.no}"> <img
-							src="image/product/${p.photo_preview}"></a></td>
+				<td>
+				<c:forEach items="${requestScope.list}" varStatus="status" var="p">
+					<a href="detail.do?no=${p.no}"> <img src="image/product/${p.photo_preview}"></a>
+					<c:if test="${ status.count % 5 == 0 }"><br/></c:if>
+					<c:if test="${status.count % 5 != 0 }">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</c:if>
 				</c:forEach>
+				</td>
 			</tr>
 		</table>
 	</div>

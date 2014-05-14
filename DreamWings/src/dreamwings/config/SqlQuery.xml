@@ -18,6 +18,10 @@
     	<include refid="select"/> where no=#{value}
     </select>
     
+    <select id="selectByCategory"  parameterType="String" resultType="Product">
+    	<include refid="select"/> where category=#{value}
+    </select>
+    
  </mapper>
  
  
