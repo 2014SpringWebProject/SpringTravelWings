@@ -9,13 +9,21 @@
 	<bean name="/login_page.do" class="dreamwings.controller.LoginPageController" />
 	<bean name="/search_page.do" class="dreamwings.controller.SearchPageController" />
 	<bean name="/join_page.do" class="dreamwings.controller.JoinPageController" />
+	<bean name="/logout_page.do" class="dreamwings.controller.LogoutPageController" />
 	<!--<bean name="/list_page.do" class="dreamwings.controller.ListPageController" /> = list.do -->
 	<bean name="/detail_review_page.do" class="dreamwings.controller.DetailReviewPageController" />
 	<!-- <bean name="/detail_item_page.do" class="dreamwings.controller.DetailItemPageController" /> = detail.do -->
 	<bean name="/buy_page.do" class="dreamwings.controller.BuyPageController" />
 	<bean name="/buy_finish_page.do" class="dreamwings.controller.BuyFinishPageController" />
+	
+	<!-- 사용자 -->
 	<bean name="/mypage_buylist_page.do" class="dreamwings.controller.MypageBuylistPageController" />
-
+	
+	<!-- 관리자 -->
+	<bean name="owner_product_page.do" class="dreamwings.controller.OwnerProductPageController" />
+	<bean name="owner_order_page.do" class="dreamwings.controller.OwnerOrderPageController" />
+	
+	
 	<bean name="/join.do" class="dreamwings.controller.JoinController" />
 	<bean name="/login.do" class="dreamwings.controller.LoginController" />
 	

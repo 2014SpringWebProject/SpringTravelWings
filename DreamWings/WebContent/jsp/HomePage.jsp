@@ -14,11 +14,11 @@
 	<jsp:include page="PageHeader.jsp"></jsp:include>
 
 	<div>
-		<div id="main_home_ad">MAIN ADVERTISEMENT</div>
+		<div id="main_home_ad"><img src="image/advertisement/ad_main.jpg" id="main_login_ad_image"/></div>
 		<div id="main_home_login" align="left">
 
 			<form action="login.do" method="post">
-				<img src="image/text/text_welcome.png" style="margin-top:30px;"/><br/>
+				<img src="image/text/text_welcome.png" style="margin-top:25px;"/><br/>
 				<table align="center" bgcolor="#EDF7F2"
 					style="margin-top: 10px; text-align: center;">
 					<c:if test="${empty sessionScope.member_id}">
